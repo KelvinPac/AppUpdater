@@ -7,6 +7,7 @@ package com.homeautogroup.appupdater;
 * 1.Check update in On create
 * 2. Check using a service periodically
 * 3. Set Auto download in Wifi Mode
+* eeeeeeeeeeeeeeeeeee
 */
 
 import android.support.v7.app.AppCompatActivity;
