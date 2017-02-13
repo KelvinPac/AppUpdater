@@ -1,5 +1,14 @@
 package com.homeautogroup.appupdater;
 
+/*
+* By flyboypac@gmail.com (254705419309)
+* Update library for android apps
+* *****FEATURES********
+* 1.Check update in On create
+* 2. Check using a service periodically
+* 3. Set Auto download in Wifi Mode
+*/
+
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
