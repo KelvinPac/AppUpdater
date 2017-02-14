@@ -1,5 +1,6 @@
 package com.homeautogroup.appupdater;
 
+import android.app.AlertDialog;
 import android.app.DownloadManager;
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -12,7 +13,7 @@ import android.net.NetworkInfo;
 import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Environment;
-import android.support.v7.app.AlertDialog;
+//import android.support.v7.app.AlertDialog;
 import android.util.Log;
 import android.widget.Toast;
 
@@ -229,6 +230,7 @@ public class Update {
         builder.setMessage("Stay updated to enjoy latest features \n"+ whatsNew);
         AlertDialog update = builder.create();
         update.show();
+
 
     }
 
